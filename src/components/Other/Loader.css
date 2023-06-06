@@ -1,0 +1,38 @@
+.test {
+  border: 1px solid rgb(255, 255, 255);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.test1 {
+  height: 80vh;
+  background-color: #ffffff;
+}
+
+.loading {
+  width: 30px;
+  height: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-right-color: rgb(133, 153, 221);
+  border-radius: 50%;
+  -webkit-animation: loading-rotate 0.5s 0s infinite linear;
+  animation: loading-rotate 0.5s 0s infinite linear;
+}
+
+@-webkit-keyframes loading-rotate {
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes loading-rotate {
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}

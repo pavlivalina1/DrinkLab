@@ -1,0 +1,63 @@
+.random-button2 {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 30px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+  margin-left: 7%;
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .random-button2 {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .random-button2 {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .random-button2 {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .random-button2 {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+.random-button2:hover {
+  background-color: rgb(79, 100, 111);
+}
+
+.random-button2 p {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Stick No Bills", sans-serif;
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .random-button2 p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.random-button2 img {
+  height: 80px;
+  width: 80px;
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .random-button2 img {
+    height: 40px;
+    width: 40px;
+  }
+}

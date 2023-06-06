@@ -1,0 +1,125 @@
+
+
+.explore-button {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 308px;
+  margin-left: 70px;
+  background-color: #000000;
+  border-radius: 30px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .explore-button {
+    padding: 5px;
+    margin-left: 35%;
+    margin-top: 118px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .explore-button {
+    padding: 5px;
+    margin-left: 10%;
+    margin-top: 50%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .explore-button {
+    padding: 5px;
+    margin-left: 15%;
+    margin-top: 43%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .explore-button {
+    padding: 7px;
+    margin-left: 20%;
+    margin-top: 40%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .explore-button {
+    padding: 7px;
+    margin-left: 20%;
+    margin-top: 40%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .explore-button {
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 35%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .explore-button {
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 30%;
+    text-align: center;
+  }
+}
+
+.explore-butn-text {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  font-family: "Rubic", sans-serif;
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .explore-butn-text {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .explore-butn-text {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 12000px) {
+  .explore-butn-text {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+}
+
+.explore-butn-text:hover {
+  cursor: pointer;
+  text-shadow: 2px 5px 13px white;
+}
+
+.explore-butn-icon {
+  width: 60px;
+  height: 40px;
+  overflow: hidden;
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .explore-butn-icon {
+    width: 30px;
+    height: 20px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .explore-butn-icon {
+    width: 35px;
+    height: 25px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .explore-butn-icon {
+    width: 50px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,40 @@
+
+.cocktail {
+  position: relative;
+  margin: auto;
+  width: 280px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #000000 110%);
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 25px;
+  transition: background-image 0.9s ease-in-out;
+}
+
+.cocktail:hover {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #000000 70%);
+}
+.cocktail:hover .cocktail-name-list {
+  margin-top: -35%;
+  transition: margin-top 0.6s ease-in-out;
+}
+
+.cocktail img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.cocktail-name-list {
+  margin-top: -25%;
+  text-align: center;
+  transition: margin-top 0.6s ease-in-out;
+}
+

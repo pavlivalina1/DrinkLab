@@ -1,0 +1,13 @@
+.no-drinks {
+  text-align: center;
+  font-size: 280%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Rubic", sans-serif;
+}
+
+.no-drinks img {
+  text-align: center;
+  width: 15%;
+  height: 15%;
+}

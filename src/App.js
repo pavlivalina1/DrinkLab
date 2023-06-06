@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { MainPage } from "./pages/MainPage";
+import { CocktailPage } from "./pages/CocktailPage";
+import { CategoryPage } from "./pages/CategoryPage";
+import { Routes, Route, Link, BrowserRouter, useLocation, Navigate } from 'react-router-dom'
+import { MainHeader } from "./components/Header/MainHeader";
+import { NamePage } from "./pages/NamePage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <AppContent />
+    </>
+  );
+}
+
+function AppContent() {
+  const location = useLocation();
+  const { pathname } = location;
+
+  return (
+    <>
+      {(pathname != '/main') ? 
+        <MainHeader/> 
+        : null}
+
+      <Routes>
+        <Route path="/main" element={<MainPage />} />
+        <Route path="/cocktail/:id" element={<CocktailPage />} />
+        <Route path="/category/:category" element={<CategoryPage />} />
+        <Route path="/name/:category" element={<NamePage />} />
+        <Route path="*" element={<Navigate to="/main" replace/>} />
+      </Routes>
+    </>
   );
 }
 

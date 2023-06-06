@@ -1,0 +1,15 @@
+.cocktail-list-container {
+  width: 84%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cocktail-list-header {
+  font-family: "Rubic", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}

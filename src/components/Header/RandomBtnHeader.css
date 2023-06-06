@@ -1,0 +1,126 @@
+
+.random-button {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 308px;
+  margin-left: 340px;
+  background-color: black;
+  border-radius: 30px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .random-button {
+    padding: 5px;
+    margin-left: 32%;
+    margin-top: 158px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .random-button {
+    padding: 5px;
+    margin-left: 50%;
+    margin-top: 50%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .random-button {
+    padding: 5px;
+    margin-left: 50%;
+    margin-top: 43%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .random-button {
+    padding: 7px;
+    margin-left: 50%;
+    margin-top: 40%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .random-button {
+    padding: 7px;
+    margin-left: 52%;
+    margin-top: 40%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .random-button {
+    padding: 10px;
+    margin-left: 50%;
+    margin-top: 35%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .random-button {
+    padding: 10px;
+    margin-left: 50%;
+    margin-top: 30%;
+    text-align: center;
+  }
+}
+
+.explore-butn-text {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  font-family: "Rubic", sans-serif;
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .explore-butn-text {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .explore-butn-text {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 12000px) {
+  .explore-butn-text {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+}
+
+.explore-butn-text:hover {
+  cursor: pointer;
+  text-shadow: 2px 5px 13px white;
+}
+
+
+.random-butn-icon {
+  margin-left: 5px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .random-butn-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .random-butn-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .random-butn-icon {
+    width: 30px;
+    height: 30px;
+  }
+}

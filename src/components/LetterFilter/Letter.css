@@ -1,0 +1,13 @@
+
+.letter {
+  margin-right:5px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.letter:hover {
+  font-weight: bold;
+}
