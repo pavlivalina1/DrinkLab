@@ -11,7 +11,7 @@ export const CategoryList = (props) => {
       {
         
         props.cocktails.map((cocktail) => (
-          <CocktailCard cocktail={cocktail}/>
+          <CocktailCard  cocktail={cocktail}/>
         ))
       }
     </div>

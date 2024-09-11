@@ -34,7 +34,7 @@ export const CocktailCollections = () => {
     <div id="collections-container" className="collections-container">
      {
       categories.map((category) => (
-        <CategoryCard category={category.category} img={category.img} title={category.title}/>
+        <CategoryCard  category={category.category} img={category.img} title={category.title}/>
       ))
      }
      </div>

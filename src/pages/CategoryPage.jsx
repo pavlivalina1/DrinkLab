@@ -45,7 +45,7 @@ export const CategoryPage = () => {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [category]);
 
   return (
     <>

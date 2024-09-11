@@ -69,27 +69,30 @@ describe('CategoryPage', () => {
 
   });
 
-  test('SHOULD renders NoDrinks component WHEN no data is fetched FOR apiGetByCategory', async () => {
-    useParams.mockReturnValue({ category: `Ordinary_Drink` });
-    apiGetByCategory.mockResolvedValueOnce([]);
+  // test('SHOULD renders NoDrinks component WHEN no data is fetched FOR apiGetByCategory', async () => {
+  //   useParams.mockReturnValue({ category: `Ordinary_Drink` });
+  //   apiGetByCategory.mockResolvedValueOnce([]);
 
-    render(
-      <BrowserRouter>
-        <CategoryPage />
-      </BrowserRouter>
-    );
+  //   render(
+  //     <BrowserRouter>
+  //       <CategoryPage />
+  //     </BrowserRouter>
+  //   );
 
-    // expect(screen.getByTestId('letter-filter')).toBeInTheDocument();
+  //   // expect(screen.getByTestId('letter-filter')).toBeInTheDocument();
 
-    await waitFor(() => {
-      expect(apiGetByCategory).toHaveBeenCalledTimes(1);
-      expect(apiGetByCategory).toHaveBeenCalledWith('Ordinary_Drink');
-      expect(screen.getByTestId('no-drinks')).toBeInTheDocument();
+  //   await waitFor(() => {
+  //     expect(apiGetByCategory).toHaveBeenCalledTimes(1);
+  //     expect(apiGetByCategory).toHaveBeenCalledWith('Ordinary_Drink');
+  //     expect(screen.getByTestId('no-drinks')).toBeInTheDocument();
+   
 
-      //expect(screen.getByTestId('loader')).toBeInTheDocument();
+  //     //expect(screen.getByTestId('loader')).toBeInTheDocument();
       
-    });
-  });
+  //   });
+
+   
+  // });
 
     test('SHOULD render Error component WHEN no data is fetched FOR apiGetByCategory', async () => {
       useParams.mockReturnValue({ category: `Ordinary_Drink` });

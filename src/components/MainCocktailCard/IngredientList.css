@@ -4,7 +4,7 @@
 
 
 .ingr-item, .ingredient-list > li {
-  font-size: 130%;
+  font-size: 100%;
   margin-bottom: 10px;
 }
 @media screen and (min-width: 320px) and (max-width: 500px) {
@@ -24,6 +24,6 @@
 }
 @media screen and (min-width: 700px) and (max-width: 1500px) {
   .ingr-item, .ingredient-list > li {
-    font-size: 22px;
+    font-size: 20px;
   }
 }

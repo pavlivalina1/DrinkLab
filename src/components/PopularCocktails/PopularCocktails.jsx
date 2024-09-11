@@ -81,7 +81,7 @@ export const PopularCocktails = () => {
       <section className='hexagon-gallery'>
       {
       popularCocktails.map((cocktail) => (
-        <Hex strDrink={cocktail.strDrink} strDrinkThumb={cocktail.strDrinkThumb} id = {cocktail.idDrink}/>
+        <Hex  strDrink={cocktail.strDrink} strDrinkThumb={cocktail.strDrinkThumb} id = {cocktail.idDrink}/>
       ))
       }
     </section>

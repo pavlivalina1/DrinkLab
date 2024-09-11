@@ -35,7 +35,7 @@ export const Firework = () => {
     setLikes(likes + 1);
     socket.send('like');
   };
-
+ 
   const handleClick2 = () => {
     setDislikes(dislikes + 1);
     socket.send('dislike');
