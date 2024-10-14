@@ -9,7 +9,6 @@ import { apiGetRandomCocktail } from '../api/cocktails_api'
 import { useState, useEffect } from 'react'
 import { Loader } from '../components/Other/Loader'
 import { Error } from '../components/Other/Error'
-import { Firework } from '../WebSockets/Firework'
 
 export const MainPage = () => {
     const [cocktail, setCocktail] = useState(null)
@@ -47,7 +46,6 @@ export const MainPage = () => {
       )}
       <CocktailCollections/>
       <LetterFilter/>
-      <Firework/>
       <Footer/>
     </>
   )
