@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/336ccb3f-4008-4b7a-8fc7-66996585bb08/resourceGroups/DrinkLabWebApp_group-a27c/providers/Microsoft.Web/sites/DrinkLabWebApp",
+  "appService.deploySubpath": "."
+}
